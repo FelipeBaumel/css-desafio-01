@@ -1,19 +1,16 @@
-*{
-  margin: 0;
-  padding: 0;
-  font-family: Raleway;
-}
 
-@font-face {
-  font-family: Raleway;
-  src: url('../assets/fonts/static/Raleway-Regular.ttf');
+@import url('reset.css');
+
+body{
+  background-color: black;
 }
 
 .banner{
-  background-image: url('../assets/images/banner.png');
-  width: 1440px;
-  height: 605px;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(49, 168, 221, 0) 100%) url('../assets/images/banner.png');
+  background-image: linear-gradient(rgba(0, 0, 0, .6) 0%, rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url('../assets/images/banner.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  padding-top: 60px;
 
 }
 
@@ -41,4 +38,41 @@
   text-align: left;
   font-style: normal;
 }
+
+.banner-content > p {
+  background: rgba(255, 255, 255, 1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.banner-content > button {
+  padding: 19px 91px 19px 91px;
+  gap: 31px;
+  width: 326px;
+  height: 57px;
+  top: 473px;
+  left: 557px;
+  
+  border: 2px solid;
+  border-image-source: linear-gradient(180deg, #3BA1CD 0%, #1572B7 100%);
+  background: linear-gradient(180deg, #3BA1CD 0%, #1572B7 100%);
+  
+  font-weight: 900;
+  font-size: 16px;
+  color: #31A8DD;
+  text-align: center;
+  letter-spacing: 3.36px;
+  line-height: normal;
+
+  
+
+}
+
+
+
 
