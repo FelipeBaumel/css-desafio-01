@@ -27,15 +27,13 @@ body{
 }
 
 .banner-content > h1{
-  background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   font-size: 40px;
   font-weight: 900;
-  line-height: 47px;
-  letter-spacing: 0em;
-  text-align: left;
-  font-style: normal;
+  text-transform: uppercase;
+  color: transparent;
+  background: -webkit-linear-gradient(#33A8DB, #1472b7);
+  -webkit-background-clip: text;
+  background-clip: text;
 }
 
 .banner-content > p {
