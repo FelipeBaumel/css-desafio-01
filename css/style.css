@@ -55,10 +55,6 @@ body{
 
 .banner-content > button {
   padding: 16px 32px;
-  width: 326px;
-  height: 57px;
-  top: 473px;
-  left: 557px;
   
   color: #31A8DD;
   background-color: transparent;
@@ -72,6 +68,53 @@ body{
   text-transform: uppercase;
 }
 
+#course-content{
+  margin: 100px 100px 80px 100px;
+}
+
+main h2{
+  color: rgba(51, 168, 219, 1); 
+  width: 477px;
+  height: 38px;
+  font-weight: 700;
+  font-size: 32px;
+  text-transform: uppercase;
+}
+
+#course-content p{
+  color: rgba(255, 255, 255, 1);
+  width: 792px;
+  height: 38px;
+  font-weight: 400;
+  font-size: 16px;
+  margin: 20px 0 20px 0;
+}
+
+#course-content .modules-list{
+  color: rgba(255, 255, 255, 1);
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.module{
+  border: solid 1px rgba(51, 168, 219, 1);
+  background-color: linear-gradient(#252525, #252525)
+  linear-gradient(0deg, #33A8DB, #33A8DB);
+  width: 535px;
+  height: 51px;
+  border-radius: 57px;
+
+  padding: 16px 127px 16px 127px;
+}
+
+.module span{
+  color: rgba(51, 168, 219, 1);
+
+}
+
+#transform-world{
+  color: white;
+}
 
 
 
