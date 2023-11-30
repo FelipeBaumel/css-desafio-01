@@ -68,8 +68,10 @@ body{
   text-transform: uppercase;
 }
 
+
 #course-content{
   margin: 100px 100px 80px 100px;
+  text-align: center;
 }
 
 main h2{
@@ -79,6 +81,7 @@ main h2{
   font-weight: 700;
   font-size: 32px;
   text-transform: uppercase;
+  margin: auto;
 }
 
 #course-content p{
@@ -87,13 +90,14 @@ main h2{
   height: 38px;
   font-weight: 400;
   font-size: 16px;
-  margin: 20px 0 20px 0;
+  margin: 20px auto 20px auto;
 }
 
 #course-content .modules-list{
   color: rgba(255, 255, 255, 1);
   font-weight: 400;
   font-size: 16px;
+  margin: 0 320px;
 }
 
 .module{
@@ -113,7 +117,12 @@ main h2{
 }
 
 #transform-world{
+  background-image: url('../assets/images/woman-code.png');
+  background-size: cover;
+  width: 1439px;
+  height: 960px;
   color: white;
+
 }
 
 
