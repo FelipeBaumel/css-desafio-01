@@ -140,8 +140,31 @@ main h2{
   text-transform: lowercase;
 }
 
+#professional-challenges{
+  width: auto;
+  height: 429px;
+  margin: 100px 428px;
+  text-align: center;
+}
 
+#professional-challenges p{
+  color: white;
+}
 
+footer{
+  margin: auto;
+  border-top: solid 1px #33A8DB;
+}
+
+footer p{
+  color: white;
+}
+
+footer a{
+  text-decoration: none;
+  color: #33A8DB;
+  font-weight: bold;
+}
 
 
 
