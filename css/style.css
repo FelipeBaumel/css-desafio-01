@@ -141,10 +141,12 @@ main h2{
 }
 
 #professional-challenges{
-  width: auto;
-  height: 429px;
-  margin: 100px 428px;
+  width: 800px;
   text-align: center;
+}
+
+#professional-challenges img{
+  margin: 32px 0;
 }
 
 #professional-challenges p{
@@ -152,12 +154,21 @@ main h2{
 }
 
 footer{
-  margin: auto;
-  border-top: solid 1px #33A8DB;
+  padding: 60px 0;
+
+  text-align: center;
+
+  background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2));
+
+  border-top: solid 1px #33A8DB80;
 }
 
 footer p{
   color: white;
+}
+
+footer .dio-logo{
+  width: 300px;
 }
 
 footer a{
